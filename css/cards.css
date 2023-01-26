@@ -1,0 +1,196 @@
+/* 
+Descripcion: tarjetas responsive para la tematica de aplicacion SICOP'S
+Por :Marco Antonio Flore Perez
+date: 24/enero/2023
+*/
+
+
+        a:focus {
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: 5px; 
+        }
+         .tema_container {
+         display: -ms-grid;
+         display: grid;
+         -ms-grid-rows: 250px 250px;
+         -ms-grid-columns: 25% 25% 25% 25%;
+         grid-template-columns: 25% 25% 25% 25%;
+         height: 500px;
+         }
+         .tema_container_inline {
+         display: -ms-inline-grid;
+         display: inline-grid;
+         overflow: hidden;
+         position: relative;
+         cursor: pointer;
+         margin: 10px
+         }
+         #tema_def {
+         -ms-grid-row: 1;
+         -ms-grid-column: 2
+         }
+         #tema_def2 {
+         -ms-grid-row: 1;
+         -ms-grid-column: 3
+         }
+         #tema_def3 {
+         -ms-grid-row: 1;
+         -ms-grid-column: 4
+         }
+         #tema_def4 {
+         -ms-grid-row: 2;
+         -ms-grid-column: 1
+         }
+         #tema_def5 {
+         -ms-grid-row: 2;
+         -ms-grid-column: 2
+         }
+         #tema_def6 {
+         -ms-grid-row: 2;
+         -ms-grid-column: 4
+         }
+         #tema_def7 {
+         -ms-grid-row: 1;
+         -ms-grid-column: 1
+         }
+         #tema_def8 {
+         -ms-grid-row: 2;
+         -ms-grid-column: 3
+         }
+         .tema {
+         text-align: center;
+         position: absolute;
+         height: 100%;
+         width: 100%
+         }
+         .tema img {
+         height: 45%;
+         max-width: 80%
+         }
+         .tema label {
+         color: #fff;
+         margin: auto 15px;
+         width: 100%
+         }
+         .tema span {
+         color: #fff;
+         margin: auto 15px;
+         width: 100%;
+         }
+         .tema_front {
+         height: 50%;
+         position: relative;
+         margin-top: 50%;
+         max-width: 100%
+         }
+         .tema_front img {
+         height: 20px
+         }
+         .tema_front label {
+         color: #2b2b2b;
+         margin: auto 15px;
+         width: 100%;
+         }
+         .tema_front span {
+         color: #2b2b2b;
+         margin: auto 15px;
+         width: 100%;
+         }
+         .tema_separator {
+         margin-top: 30px
+         }
+         @media only screen and (max-width:980px) {
+         .tema_container {
+         -ms-grid-columns: 44% 44%;
+         -ms-grid-rows: 200px 200px 200px;
+         grid-template-columns: 44% 44%;
+         height: 600px;
+         margin: auto 10%;
+         }
+         #tema_def7 {
+         -ms-grid-row: 1;
+         -ms-grid-column: 1
+         }
+         #tema_def {
+         -ms-grid-row: 1;
+         -ms-grid-column: 2
+         }
+         #tema_def2 {
+         -ms-grid-row: 2;
+         -ms-grid-column: 1
+         }
+         #tema_def3 {
+         -ms-grid-row: 2;
+         -ms-grid-column: 2
+         }
+         #tema_def4 {
+         -ms-grid-row: 3;
+         -ms-grid-column: 1
+         }
+         #tema_def5 {
+         -ms-grid-row: 3;
+         -ms-grid-column: 2
+         }
+         #tema_def8 {
+         -ms-grid-row: 4;
+         -ms-grid-column: 1
+         }
+         #tema_def6 {
+         -ms-grid-row: 4;
+         -ms-grid-column: 2
+         }
+         #panel-5233-0-0-3 > .panel-widget-style {
+         margin-top: -113px
+         }
+         .tema_separator {
+         margin-top: 10px
+         }
+         }
+         @media only screen and (max-width:600px) {
+         .tema_container {
+         -ms-grid-columns: 100%;
+         -ms-grid-rows: 200px 200px 200px 200px 200px 200px;
+         grid-template-columns: 100%;
+         height: 1400px;
+         margin: auto 10%;
+         }
+         #tema_def7 {
+         -ms-grid-row: 1;
+         -ms-grid-column: 1
+         }
+         #tema_def {
+         -ms-grid-row: 2;
+         -ms-grid-column: 1
+         }
+         #tema_def2 {
+         -ms-grid-row: 3;
+         -ms-grid-column: 1
+         }
+         #tema_def3 {
+         -ms-grid-row: 4;
+         -ms-grid-column: 1
+         }
+         #tema_def4 {
+         -ms-grid-row: 5;
+         -ms-grid-column: 1
+         }
+         #tema_def5 {
+         -ms-grid-row: 6;
+         -ms-grid-column: 1
+         }
+         #tema_def8 {
+         -ms-grid-row: 7;
+         -ms-grid-column: 1
+         }
+         #tema_def6 {
+         -ms-grid-row: 8;
+         -ms-grid-column: 1
+         }
+         #panel-5233-0-0-3 > .panel-widget-style {
+         margin-top: -147px
+         }
+         .tema_separator {
+         margin-top: 26px
+         }
+         
+
