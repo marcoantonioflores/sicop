@@ -1,1 +1,1 @@
-# sicop
+# Ejemplo de tarjeta responsive 
