@@ -9,6 +9,10 @@
  </div>
 
 https://censo2020.mx/
+
+**Documentación Editor  stackedit**
+Ayuda a mostrar información HTML de manera simple
+
  
 # Ej. 01 - Herencia y polimorfismo
 
